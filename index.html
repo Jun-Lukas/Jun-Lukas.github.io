@@ -3,13 +3,19 @@
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+
 <button id="addBtn">add</button>
 <button>dedd</button>
 <button>123</button>
-</body>
+
 <script>
-    element.addEventListener("click", function() {
-  document.getElementById("addBtn").innerHTML = "Hello World";
-});
+   const element = document.getElementById("myBtn");
+element.addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
 </script>
+    
+</body>
 </html>
